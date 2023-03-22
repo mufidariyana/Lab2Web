@@ -72,10 +72,8 @@ Berikut adalah kode untuk membuat from input dengan menggunakan $_POST['nama']
 >Dibawah ini merupakan hasil output from input dimana mengirim value dengan method post dan diambil menggunakan query 'nama'. Kita bisa mengisi kotak nama dan akan muncul hasill seperti gambar dibawah ini.
 <img src="./gambar/input.png" style="margin: auto; width:400px;">
 
-
-## Latihan ke 4
-
-### **Code**
+## Operator
+Berikut adalah code perhitungan gaji operator
 ```
 <! html DOCTYPE>
 <html lang="en">
@@ -100,11 +98,11 @@ Berikut adalah kode untuk membuat from input dengan menggunakan $_POST['nama']
 </html>
 ```
 ### **Output**
-<img src="./image/Operator.png" style="margin: auto; width:400px;">
+>Dibawah ini merupakan hasil gaji operator yang telah dipotoh oleh pajak
+<img src="./gambar/gaji.png" style="margin: auto; width:400px;">
 
-
-## Latihan ke 5
-### **Code**
+## Kondisi IF
+Berikut adalah code dengan menggunakan kondisi IF
 ```
 <! html DOCTYPE>
 <html lang="en">
@@ -131,13 +129,11 @@ Berikut adalah kode untuk membuat from input dengan menggunakan $_POST['nama']
 </body>
 ```
 ### **Output**
-<img src="./image/Kondisi_if.png" style="margin: auto; width:400px;">
+>Dibawah ini merupakan hasil output dengan menggunakan nama hari sebagai variabel 
+<img src="./gambar/kondisiif.png" style="margin: auto; width:400px;">
 
-### **Penjelasan**
->Code diatas merupakan contoh pengkondisian if else
-
-## Latihan ke 6
-### **Code**
+## Kondisi Switch
+Berikut adalah code dengan menggunkan kondisi switch
 ```
 <h2>Kondisi Switch</h2>
 <?php
@@ -159,13 +155,11 @@ Echo "/$nama_hari";
 ?>
 ```
 ### **Output**
+>Dibawah ini adalah hasil output dengan menggunakan variabel nama hari
 <img src="./image/Kondisi_switch.png" style="margin: auto; width:400px;">
 
-### **Penjelasan**
->Code diatas merupakan contoh pengkondisian menggunakan switch case
-
-## Latihan ke 7
-### **Code**
+## Perulangan For
+Berikut adalah code dengan menggunakan perulangan for
 ```
   <!DOCTYPE html>
 <html lang="en">
@@ -194,6 +188,7 @@ Echo "/$nama_hari";
 </html>
 ```
 ### **Output**
+>Dibawah ini merupakan hasil output dengan perulangan  1 sampai 10.
 <img src="./image/Perulangan_for.png" style="margin: auto; width:400px;">
 
 ### **Penjelasan**
