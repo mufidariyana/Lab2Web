@@ -30,36 +30,18 @@ echo "Nama : $nama";
 >Dibawah ini adalah hasil output kita dengan memasukan value kedalam variabel nama dan nim
 <img src="./gambar/phpdasar.png" style="margin: auto; width:400px;"><br><br>
 
-## Latihan ke 2
-
-### **Code**
+## Predefine Variable $_GET
+Berikut adalah kode untuk mendapatkan value dari query "nama" dengan menggunakan  $_GET
 ```
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHP Dasar</title>
-</head>
-
-<body>
-  <!-- Variabel $_GET -->
   <h4><b>Predefine Variable</b></h4>
   <?php
   echo 'Selamat Datang ' . $_GET['nama']
   ?>
-</body>
-
-</html>
 ```
 
 ### **Output**
-<img src="./image/Latihan2.png" style="margin: auto; width:400px;">
-
-### **Penjelasan**
->Code diatas merupakan contoh untuk mendapatkan value dari query 'nama'
+< Dibawah ini merupakan hasil output dengan mengakses url http://localhost/lab2_php_dasar/latihan.php?nama=Mufida 
+<img src="./gambar/predefine.png" style="margin: auto; width:400px;">
 
 ## Latihan ke 3
 
