@@ -225,7 +225,7 @@ do {
 >Dibawah ini merupakan hasil output perulangan 1 sampai 10
 <img src="./gambar/perulangando.png" style="margin: auto; width:400px;">
 
-### From Input Sederhana
+## From Input Sederhana
 Berikut adalah code membuat from input sederhana
 ```
 !DOCTYPE html>
