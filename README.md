@@ -156,7 +156,7 @@ Echo "/$nama_hari";
 ```
 ### **Output**
 >Dibawah ini adalah hasil output dengan menggunakan variabel nama hari
-<img src="./image/Kondisi_switch.png" style="margin: auto; width:400px;">
+<img src="./gambar/kondisiswitch.png" style="margin: auto; width:400px;">
 
 ## Perulangan For
 Berikut adalah code dengan menggunakan perulangan for
@@ -189,10 +189,7 @@ Berikut adalah code dengan menggunakan perulangan for
 ```
 ### **Output**
 >Dibawah ini merupakan hasil output dengan perulangan  1 sampai 10.
-<img src="./image/Perulangan_for.png" style="margin: auto; width:400px;">
-
-### **Penjelasan**
->Code diatas merupakan contoh perulangan menggunakan for
+<img src="./gambar/perulanganfor.png" style="margin: auto; width:400px;">
 
 ## Latihan ke 8
 ### **Code**
