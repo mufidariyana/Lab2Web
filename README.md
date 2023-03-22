@@ -40,12 +40,11 @@ Berikut adalah kode untuk mendapatkan value dari query "nama" dengan menggunakan
 ```
 
 ### **Output**
-< Dibawah ini merupakan hasil output dengan mengakses url http://localhost/lab2_php_dasar/latihan.php?nama=Mufida 
+<Dibawah ini merupakan hasil output dengan mengakses url http://localhost/lab2_php_dasar/latihan.php?nama=Mufida 
 <img src="./gambar/predefine.png" style="margin: auto; width:400px;">
 
-## Latihan ke 3
-
-### **Code**
+## From Input
+Berikut adalah kode untuk membuat from input dengan menggunakan $_POST['nama']
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -70,10 +69,9 @@ Berikut adalah kode untuk mendapatkan value dari query "nama" dengan menggunakan
 </html>
 ```
 ### **Output**
-<img src="./image/praktikum2.png" style="margin: auto; width:400px;">
+<Dibawah ini merupakan hasil output from input dimana mengirim value dengan method post dan diambil menggunakan query 'nama'. Kita bisa mengisi kotak nama dan akan muncul hasill seperti gambar dibawah ini.
+<img src="./gambar/input.png" style="margin: auto; width:400px;">
 
-### **Penjelasan**
->Code diatas merupakan contoh untuk mengirimkan value dari form dengan method post dan kemudian diambil menggunakan query `nama`
 
 ## Latihan ke 4
 
