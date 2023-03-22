@@ -191,8 +191,8 @@ Berikut adalah code dengan menggunakan perulangan for
 >Dibawah ini merupakan hasil output dengan perulangan  1 sampai 10.
 <img src="./gambar/perulanganfor.png" style="margin: auto; width:400px;">
 
-## Latihan ke 8
-### **Code**
+## Perulangan While
+Berikut adalah code dengan menggunakan perulangan while
 ```
 <h<h2>Perulangan While</h2>
 <?php
@@ -205,13 +205,11 @@ while ($i <= 10) {
 ?>
 ```
 ### **Output**
+>Dibawah ini merupakan hasil output perulangan 1 sampai 10
 <img src="./gambar/perulanganwhile.png" style="margin: auto; width:400px;">
 
-### **Penjelasan**
->Code diatas merupakan contoh perulangan menggunakan while
-
-## Latihan ke 9
-### **Code**
+## Perulangan Do While
+Berikut adalah code dengan menggunakan do while 
 ```
 <h2>Perulangan Do while</h2>
 <?php
@@ -224,7 +222,75 @@ do {
 ?>
 ```
 ### **Output**
-<img src="./image/Perulangan_Do_While.png" style="margin: auto; width:400px;">
+>Dibawah ini merupakan hasil output perulangan 1 sampai 10
+<img src="./gambar/perulangando.png" style="margin: auto; width:400px;">
 
-### **Penjelasan**
->Code diatas merupakan contoh perulangan menggunakan do while
+### From Input Sederhana
+Berikut adalah code membuat from input sederhana
+```
+!DOCTYPE html>
+<html>
+<head>
+    <title>Form HTML</title>
+</head>
+<body>
+    <form method="POST">
+        <fieldset>
+        <legend>Form</legend>
+        <p>
+           <label for="fNama">Nama: </label><br>
+           <input type="text" id="fNama" name="nama"><br>
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label><br>
+            <input type="date" name="tanggal" /><br>
+        </p>
+        <label for="fPekerjaan">Pekerjaan: </label><br>
+        <select name="pekerjaan" id="fPekerjaan">
+            <option value="Tidak Ada">Tidak ada</option>
+            <option value="Admin">Admin</option>
+            <option value="Sales">Sales</option>
+            <option value="Operator Produksi">Operator</option>
+            <option value="Supervisor">Supervisor</option>
+            <option value="Manager">Manager</option>
+        </select>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Send" />
+        </p>
+        </fieldset>
+    </form>
+    <?php
+
+    if (isset($_POST["submit"])) {
+        echo '<h2>Hasil</h2>';
+        echo 'Nama:' . $_POST["nama"] . '<br>';
+        echo 'Tanggal Lahir:' . $_POST["tanggal"] . '<br>';
+        echo 'Usia  :' . date_diff(date_create($_POST["tanggal"]), date_create('today'))->y . "<br>";
+        echo 'Pekerjaan :' . $_POST["pekerjaan"] . '<br>';
+        if ($_POST["pekerjaan"] == "Admin") {
+            echo 'Pendapatan: Rp.  3.500.000 <br>';
+        } else if ($_POST["pekerjaan"] == "Sales") {
+            echo 'Pendapatan: Rp. 3.000.000 <br>';
+        } else if ($_POST["pekerjaan"] == "Operator Produksi") {
+            echo 'Pendapatan: Rp. 4.500.000 <br>'; 
+        } else if ($_POST["pekerjaan"] == "Supervisor") {
+            echo 'Pendapatan: Rp. 5.000.000 <br>';
+        } else if ($_POST["pekerjaan"] == "Manager") {
+            echo 'Pendapatan: Rp. 5.500.000 <br>';       
+        } else {
+            echo 'Pendapatan: Rp. 0 <br>';
+        }
+    }
+    ?>
+</body>
+
+</html>
+```
+### **Output**
+>Dibawah ini merupakan hasil output dengan menggunakan method $_POST.
+<img src="./gambar/saya.png" style="margin: auto; width:400px;">
+>Dibawah Ini ketika kita memasukan nama,tanggal lahir dan pekerjaan 
+<img src="./gambar/sayaa.png" style="margin: auto; width:400px;">
+>Dibawah ini merupakan hasil setelah mengisi kolomm nama, tanggal lahir serta pekerjaan akan muncul usia kita serta pendapatan kita sesuai dengan pekerjaan yang dipilih
+<img src="./gambar/sayaaa.png" style="margin: auto; width:400px;">
