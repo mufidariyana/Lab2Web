@@ -1,10 +1,6 @@
 # Lab2Web
 ## PHP DASAR
-# TUGAS Lab2 PHP Dasar Pemograman Web
-
-## Latihan ke 1
-
-### **Code**
+Berikut adalah code untuk membuat "HELLO WORD" 
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -22,8 +18,8 @@
 </body>
 <h1>Menggunakan Variable</h1>
 <?php
-$nim = "312110294";
-$nama = 'Zaini Muhtarom';
+$nim = "312110172";
+$nama = 'Mufida Nuriyana';
 echo "NIM : " . $nim . "<br>";
 echo "Nama : $nama";
 ?>
@@ -31,10 +27,8 @@ echo "Nama : $nama";
 </html>
 ```
 ### **Output**
-<img src="./image/php_dasar.png" style="margin: auto; width:400px;"><br><br>
-
-### **Penjelasan**
->Code diatas adalah contoh untuk memasukkan value kedalam variabel nama dan nim, setelah itu dilanjutkan dengan menampilkan kedalam web browser
+>Dibawah ini adalah hasil output kita dengan memasukan value kedalam variabel nama dan nim
+<img src="./gambar/phpdasar.png" style="margin: auto; width:400px;"><br><br>
 
 ## Latihan ke 2
 
